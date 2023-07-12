@@ -16,14 +16,3 @@ sudo dpkg -i codedeploy-agent_1.3.2-1902_ubuntu22.deb
 systemctl list-units --type=service | grep codedeploy 
 sudo service codedeploy-agent status
 
-
- 
-<br>## Special Note:<br>
-<br>Use Ubuntu while creating EC2 instance<br>
-<br>Connect the instance and type vim install.sh(paste the above script,save and exit)<br>
-## wget https://aws-codedeploy-us-east-1.s3.us-east-1.amazonaws.com/releases/codedeploy-agent_1.3.2-1902_all.deb
-<br>Make sure to modify the Availablity zone according to your use like here it is (us-east-1) for North virginia<br>
-<br>if you are using Mumbai then replace that place with (ap-south-1)<br>
-<br>type- bash install.sh
-
-<br>⭕Hope it you help you for your practice project.Thank you🤗.<br>
